@@ -35,9 +35,10 @@ export const audio = (() => {
         music.style.display = 'block';
     };
 
-    return {
-        play: () => getAudio().play(),
-        button,
-        showButton,
-    };
+  //return {
+  //    play: () => getAudio().play(),
+  //    button,
+  //    showButton,
+  //};
+    return{};
 })();
