@@ -185,7 +185,7 @@ export const util = (() => {
 
         theme.check();
         AOS.init();
-        audio.play();
+        //audio.play();
         document.querySelector('body').style.overflowY = 'scroll';
 
         if (localStorage.getItem('alertClosed')) {
@@ -195,7 +195,7 @@ export const util = (() => {
         opacity('welcome', 0.025);
         animation();
         countDownDate();
-        audio.showButton();
+        //audio.showButton();
 
         const token = document.querySelector('body').getAttribute('data-key');
         storage('session').set('token', token);
